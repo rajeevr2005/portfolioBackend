@@ -16,6 +16,11 @@ public class ContactController {
     @Autowired
     private ContactRepository contactRepository;
 
+    @GetMapping
+    public String test() {
+        return "Backend Running";
+    }
+
     @PostMapping
     public ResponseEntity<?> saveContact(@RequestBody Contact contact) {
 
