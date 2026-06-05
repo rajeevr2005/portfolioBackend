@@ -1,5 +1,4 @@
 package com.example.portfoliobackend.controller;
-
 import com.example.portfoliobackend.entity.Contact;
 import com.example.portfoliobackend.repository.ContactRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +9,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/contact")
-@CrossOrigin(origins = "*")
+
 public class ContactController {
 
     @Autowired
