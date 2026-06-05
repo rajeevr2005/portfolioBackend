@@ -8,6 +8,5 @@ public class PortfoliobackendApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PortfoliobackendApplication.class, args);
-		System.out.println("Application Started");
 	}
 }
