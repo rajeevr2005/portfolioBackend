@@ -17,7 +17,7 @@ public class ContactController {
 
     @GetMapping
     public String test() {
-        return "Backend Running";
+        return "Backend Running V2";
     }
 
     @PostMapping
