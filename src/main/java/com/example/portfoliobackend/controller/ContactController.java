@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
+@CrossOrigin(origins = "https://rajeevranjandev.vercel.app", allowedHeaders = "*")
 @RestController
 @RequestMapping("/api/contact")
-
 public class ContactController {
 
     @Autowired
